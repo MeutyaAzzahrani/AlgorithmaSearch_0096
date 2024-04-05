@@ -61,7 +61,11 @@ void LinearSearch()
 	} while ((ch == 'y') || (ch == 'Y'));
 }
 
-void dislpay() {
-
+void dislpay() 
+{
+	cout << "Array elements are: ";
+	for (i = 0; i < n; i++)
+		cout << arr[i] << " ";
+	cout << endl;
 }
 
