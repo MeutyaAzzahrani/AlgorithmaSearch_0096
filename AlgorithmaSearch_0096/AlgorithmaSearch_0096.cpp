@@ -69,3 +69,8 @@ void dislpay()
 	cout << endl;
 }
 
+int main()
+{
+
+}
+
