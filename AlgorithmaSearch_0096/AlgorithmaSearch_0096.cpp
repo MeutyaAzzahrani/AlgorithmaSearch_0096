@@ -45,13 +45,14 @@ void LinearSearch()
 		while (i < n) //step 3
 		{
 			ctr++;
-			if (arr[i]) == item)
+			if (arr[i] == item)
 			{
 				cout << "\n" << " found at position " << (i + 1) << endl;
 				break;
 			}
 			i++; // step 4
 		}
+
 		if (i == n)
 			cout << "\n" << item << " not found in the array\n";
 			cout << "\nNumber of comparision : " << ctr << endl;
@@ -61,7 +62,7 @@ void LinearSearch()
 	} while ((ch == 'y') || (ch == 'Y'));
 }
 
-void dislpay() 
+void display() 
 {
 	cout << "Array elements are: ";
 	for (i = 0; i < n; i++)
@@ -71,6 +72,8 @@ void dislpay()
 
 int main()
 {
-
+	input();
+	LinearSearch();
+	display();
 }
 
